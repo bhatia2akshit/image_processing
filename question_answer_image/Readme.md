@@ -9,10 +9,3 @@ This project leverages the BLIP-2 (Bootstrapping Language-Image Pre-training) mo
 
 ## Usage
 The function `generate_answer(image_path, question)` takes an image and a question as input, processes the image, and generates a relevant answer.
-
-# Example usage
-image_path = "im.jpeg"  # Replace with your image path
-question = "What is this image about?"
-answer = generate_answer(image_path, question)
-print(f"Question: {question}")
-print(f"Answer: {answer}")
